@@ -9,8 +9,8 @@
     /* colors */
     --background-color: #b8e0d2ff;
     --text-color: #522e3e;
-    --link-color: #dfb3c7;
-    --link-color-hover: #d590ae;
+    --link-color: #3211ee;
+    --link-color-hover: #3211ee8d;
     --sidebar-background-color: #95b8d1ff;
     --header-color: #809bceff; 
     --extra-dark: #5c78ab;
@@ -103,7 +103,7 @@ header {
 
 .header-title {
     font-family: var(--font);
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
 }
 
@@ -398,3 +398,52 @@ img {
     padding: 5px;
 }
 
+/* ------------------ */
+/* CHARACTER TABS */
+/* ------------------ */
+
+.characters {
+    display: block;
+    align-items: center;
+}
+
+.character {
+    width: 100%;
+    margin: var(--margin);
+    margin: 5px;
+    display: flex;
+}
+
+.character-img {
+    width: 25%;
+    height: auto;
+    padding: 5px;
+}
+
+.character-art {
+    padding: 3px;
+    border: var(--border);
+    border-radius: var(--soft-corner);
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.art-credit {
+    display: flex;
+    font: var(--font);
+    font-size: 12px;
+}
+
+.character-info {
+    width: 70%;
+    border-radius: var(--soft-corner);
+    border: var(--border);
+    margin: 5px;
+    padding: 5px;
+}
+
+.character-name {
+    font-size: 24px;
+    font-weight: bold;
+}
