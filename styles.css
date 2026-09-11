@@ -464,6 +464,7 @@ img {
     border: var(--border);
     border-radius: var(--soft-corner);
     font-size: var(--font-big);
+    padding: var(--margin);
 }
 
 .details>* {
