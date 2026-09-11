@@ -62,12 +62,45 @@
             <main id="content">
                 <section>
                     <h1>Add a Character.</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <p>A small form to add a character to the website.</p>
                 </section>
 
-                <section>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur incidunt dolorum sit cumque corporis tempora molestias inventore. Eligendi ipsam quos eum suscipit ab perferendis doloremque nesciunt accusamus corrupti, laudantium ullam.</p>
-                </section>
+                <form class="character-adder">
+                    <div class="form-item">
+                        <label for="char-name">Character name:</label><br>
+                        <input type="text" id="char-name" name="char-name" placeholder="ex. Polaris">
+                    </div>
+                    <hr>
+                    <div class="form-item">
+                        <label for="char-species">Character species</label><br>
+                        <input type="text" id="char-species" name="char-species" placeholder="ex. Space x ghost creature">
+                    </div>
+                    <hr>
+                    <div class="form-item">
+                        <label for="char-age">Character age</label><br>
+                        <input type="text" id="char-age" name="char-age" placeholder="ex. Beginning of the universe">
+                    </div>
+                    <hr>
+                    <div class="form-item">
+                        <label for="char-pronouns">Character pronouns</label><br>
+                        <input type="text" id="char-pronouns" name="char-pronouns" placeholder="ex. they/she">
+                    </div>
+                    <hr>
+                    <div class="form-item">
+                        <label for="char-ref">Image URL</label><br>
+                        <input type="url" id="char-ref" name="char-ref" placeholder="ex. https://f2.toyhou.se/file/f2-toyhou-se/images/127517481_Ih4i3YIjJFzct4Z.webp?1789097569">
+                    </div>
+                    <hr>
+                    <div class="form-item">
+                        <label for="char-trivia">Some trivia?</label><br>
+                        <textarea id="char-trivia" name="char-trivia" placeholder="ex. very large space dweller, mellow and calm" rows="3"></textarea>
+                    </div>
+                    <hr>
+                    <div class="form-item">
+                        <label for="submit-btn">Ready to submit?</label><br>
+                        <button type="submit" id="submit-btn">Add Character</button>
+                    </div>
+                </form>
             </main>
         </div>
     </body>
