@@ -550,3 +550,123 @@ img {
     font-style: italic;
     font-size: var(--font-big);
 }
+
+/* ------------------ */
+/* ADD A CHARACTER PAGE */
+/* ------------------ */
+
+.character-adder {
+    border: var(--border);
+    border-radius: var(--soft-corner);
+    width: 90%;
+    display: block;
+}
+
+.form-item {
+    height: auto;
+    padding: var(--margin);
+}
+
+label {
+    font-weight: bold;
+    font-size: 24px;
+    margin: var(--margin);
+}
+
+#char-name {
+    font-style: italic;
+    border: var(--border);
+    border-radius: var(--soft-curve);
+    width: 75%;
+    margin: var(--margin);
+    transition-duration: 1s;
+}
+
+#char-name:focus {
+    border-radius: var(--corner);
+    width: 90%;
+}
+
+#char-species {
+    font-style: italic;
+    border: var(--border);
+    border-radius: var(--soft-curve);
+    width: 75%;
+    margin: var(--margin);
+    transition-duration: 1s;
+}
+
+#char-species:focus {
+    border-radius: var(--corner);
+    width: 90%;
+}
+
+#char-age {
+    font-style: italic;
+    border: var(--border);
+    border-radius: var(--soft-curve);
+    width: 75%;
+    margin: var(--margin);
+    transition-duration: 1s;
+}
+
+#char-age:focus {
+    border-radius: var(--corner);
+    width: 90%;
+}
+
+#char-pronouns {
+    font-style: italic;
+    border: var(--border);
+    border-radius: var(--soft-curve);
+    width: 75%;
+    margin: var(--margin);
+    transition-duration: 1s;
+}
+
+#char-pronouns:focus {
+    border-radius: var(--corner);
+    width: 90%;
+}
+
+#char-ref {
+    font-style: italic;
+    border: var(--border);
+    border-radius: var(--soft-curve);
+    width: 75%;
+    margin: var(--margin);
+    transition-duration: 1s;
+}
+
+#char-ref:focus {
+    border-radius: var(--corner);
+    width: 90%;
+}
+
+#char-trivia {
+    font-style: italic;
+    border: var(--border);
+    border-radius: var(--soft-curve);
+    width: 75%;
+    margin: var(--margin);
+    transition-duration: 1s;
+}
+
+#char-trivia:focus {
+    border-radius: var(--corner);
+    width: 90%;
+}
+
+#submit-btn {
+    font-weight: bold;
+    border: var(--border);
+    border-radius: var(--curve);
+    width: 75%;
+    margin: var(--margin);
+    color: var(--text-color);
+}
+
+#submit-btn:hover {
+    border-radius: var(--soft-corner);
+    color: var(--link-color-hover);
+}
